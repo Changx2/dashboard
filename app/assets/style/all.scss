@@ -1,6 +1,13 @@
+//Bootstrap 5
 @import "../../../node_modules/bootstrap/scss/functions";
-@import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+@import "variables";
+@import "utilities";
+@import "base";
 
-@import './layout/index.scss'
+// layout 共同框架,第一層
+@import "layout/sidebar";
+
+// 頁面設計
+@import "pages/index";

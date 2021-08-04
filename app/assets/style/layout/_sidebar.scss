@@ -15,8 +15,7 @@
   padding: 32px;
 }
 .sidebar-item {
-  .ooo {
-    color: red;
+  a {
     &:hover {
       color: $success;
     }

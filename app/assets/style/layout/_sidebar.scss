@@ -13,9 +13,7 @@
   min-height: 100vh;
   min-width: 296px;
   padding: 32px;
-}
-.sidebar-item {
-  a {
+  &-item-link {
     &:hover {
       color: $success;
     }
@@ -24,19 +22,4 @@
 .user-img {
   width: 40px;
   height: 40px;
-}
-
-.sidebar__item--active {
-  position: relative;
-  &::before {
-    content: "";
-    width: 4px;
-    height: 36px;
-    background-color: $secondary;
-    position: absolute;
-    left: 0;
-  }
-  a {
-    color: $secondary;
-  }
 }

@@ -11628,11 +11628,7 @@ p {
   padding: 32px;
 }
 
-.sidebar-item .ooo {
-  color: red;
-}
-
-.sidebar-item .ooo:hover {
+.sidebar-item a:hover {
   color: #198754;
 }
 

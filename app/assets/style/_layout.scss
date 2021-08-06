@@ -1,3 +1,6 @@
+main {
+  padding: 32px;
+}
 .logo {
   margin-bottom: 32px;
   a {
@@ -14,9 +17,24 @@
   min-width: 296px;
   padding: 32px;
   &-item-link {
+    color: $dark;
     &:hover {
-      color: $success;
+      color: $primary;
     }
+    &.active {
+      color: $primary;
+    }
+    &.active::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 4px;
+      height: 32px;
+      border-left: 4px solid $primary;
+    }
+  }
+  &-email {
+    font-size: 14px;
   }
 }
 .user-img {

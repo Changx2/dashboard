@@ -2,12 +2,10 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-@import "variables";
-@import "utilities";
 @import "base";
 
-// layout 共同框架,第一層
-@import "layout/sidebar";
+// layout 共同框架
+@import "layout";
 
 // 頁面設計
-@import "pages/index";
+@import "index";

@@ -1,0 +1,60 @@
+.link-add,
+.link-search,
+.link-notice {
+  &:hover {
+    color: $primary;
+  }
+}
+// Table
+.icon_visible,
+.icon_edit {
+  &:hover {
+    color: $primary;
+  }
+}
+.icon-down {
+  font-size: 18px;
+}
+.table-hover tbody tr:hover {
+  background-color: $light;
+}
+.table {
+  & th {
+    border-top: none;
+    border-bottom: 1px solid $gray-900;
+    padding: 4px 0;
+  }
+  & td {
+    vertical-align: middle;
+    border-bottom: 1px solid $gray-400;
+    padding: 16px 0;
+  }
+}
+// Pagination
+.page {
+  &-link {
+    color: $gray-900;
+    border: 1px solid $primary;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      color: $white;
+      background: $primary;
+      border: 1px solid $primary;
+    }
+    &.active {
+      color: $white;
+      background: $primary;
+    }
+  }
+  &-icon {
+    color: $primary;
+    &:hover {
+      color: $white;
+      background: $primary;
+    }
+  }
+}

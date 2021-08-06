@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="d-flex">
+  <div class="container d-flex">
     <nav class="sidebar bg-light d-flex flex-column justify-content-between">
       <div class="sidebar-main">
         <h1 class="logo">
@@ -23,37 +23,37 @@
         </h1>
         <ul class="fw-bold">
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="#">
+            <a class="sidebar-item-link" href="#">
               <span class="material-icons me-3 align-bottom">insert_chart</span>
               Dashboard
             </a>
           </li>
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="#">
+            <a class="sidebar-item-link" href="#">
               <span class="material-icons me-3 align-bottom">question_answer</span>
               Question
             </a>
           </li>
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="index.html">
+            <a class="sidebar-item-link" href="index.html">
               <span class="material-icons me-3 align-bottom">assignment</span>
               Assignment
             </a>
           </li>
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="#">
+            <a class="sidebar-item-link" href="#">
               <span class="material-icons me-3 align-bottom">video_library</span>
               Course
             </a>
           </li>
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="#">
+            <a class="sidebar-item-link active" href="#">
               <span class="material-icons me-3 align-bottom">people</span>
               Admin
             </a>
           </li>
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="#">
+            <a class="sidebar-item-link" href="#">
               <span class="material-icons me-3 align-bottom">settings</span>
               Settings
             </a>
@@ -64,11 +64,11 @@
         <img class="user-img rounded-circle me-3" src="./assets/images/andychen.jpeg" alt="photo">
         <div class="sidebar-user-info">
           <p class="fw-bold">Andy Chen</p>
-          <p class="text-sm text-black-50">andy0401@mail.com</p>
+          <p class="sidebar-email text-black-50">andy0401@mail.com</p>
         </div>
       </div>
     </nav>
-    <main>
+    <main class="w-100">
       <%- contents %>
     </main>
   </div>

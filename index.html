@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="d-flex">
+  <div class="container d-flex">
     <nav class="sidebar bg-light d-flex flex-column justify-content-between">
       <div class="sidebar-main">
         <h1 class="logo">
@@ -23,37 +23,37 @@
         </h1>
         <ul class="fw-bold">
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="#">
+            <a class="sidebar-item-link" href="#">
               <span class="material-icons me-3 align-bottom">insert_chart</span>
               Dashboard
             </a>
           </li>
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="#">
+            <a class="sidebar-item-link" href="#">
               <span class="material-icons me-3 align-bottom">question_answer</span>
               Question
             </a>
           </li>
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="index.html">
+            <a class="sidebar-item-link" href="index.html">
               <span class="material-icons me-3 align-bottom">assignment</span>
               Assignment
             </a>
           </li>
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="#">
+            <a class="sidebar-item-link" href="#">
               <span class="material-icons me-3 align-bottom">video_library</span>
               Course
             </a>
           </li>
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="#">
+            <a class="sidebar-item-link active" href="#">
               <span class="material-icons me-3 align-bottom">people</span>
               Admin
             </a>
           </li>
           <li class="sidebar-item d-flex mb-4">
-            <a class="sidebar-item-link text-dark" href="#">
+            <a class="sidebar-item-link" href="#">
               <span class="material-icons me-3 align-bottom">settings</span>
               Settings
             </a>
@@ -64,12 +64,214 @@
         <img class="user-img rounded-circle me-3" src="./assets/images/andychen.jpeg" alt="photo">
         <div class="sidebar-user-info">
           <p class="fw-bold">Andy Chen</p>
-          <p class="text-sm text-black-50">andy0401@mail.com</p>
+          <p class="sidebar-email text-black-50">andy0401@mail.com</p>
         </div>
       </div>
     </nav>
-    <main>
-      
+    <main class="w-100">
+      <div class="admin-main">
+    <div class="d-flex justify-content-between mb-5">
+        <div class="d-flex align-items-center">
+            <h3 class="h4 fw-bold me-5 mb-0">Admin</h3>
+            <a href="#" class="link-add d-flex fw-bold">
+                <span class="material-icons me-2 text-primary">
+                    add
+                </span>Add New Admin
+            </a>
+        </div>
+        <div class="d-flex">
+            <a href="#" class="link-search me-4">
+                <span class="material-icons">
+                    search
+                </span>
+            </a>
+            <a href="#" class="link-notice">
+                <span class="material-icons">
+                    notifications_active
+                </span>
+            </a>
+        </div>
+    </div>
+    <!-- Table -->
+    <table class="table table-hover mb-5">
+        <thead>
+            <tr>
+                <th scope="col">
+                    ID
+                    <span class="material-icons icon-down align-middle text-primary">
+                        arrow_downward
+                    </span>
+                </th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Verified</th>
+                <th class="tableIcon-title" scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>#1</td>
+                <td>Emir Wicks</td>
+                <td>emir.wicks@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end">
+                    <a href="#" class="icon_visible material-icons table-icon me-4">
+                        visibility
+                    </a>
+                    <a href="#" class="icon_edit material-icons table-icon">
+                        edit
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>#2</td>
+                <td>Zaina Goldsmith</td>
+                <td>zaina.goldsmith@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end">
+                    <a href="#" class="icon_visible material-icons table-icon me-4">
+                        visibility
+                    </a>
+                    <a href="#" class="icon_edit material-icons table-icon">
+                        edit
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>#3</td>
+                <td>Mahima Lopez</td>
+                <td>mahima.lopez@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end">
+                    <a href="#" class="icon_visible material-icons table-icon me-4">
+                        visibility
+                    </a>
+                    <a href="#" class="icon_edit material-icons table-icon">
+                        edit
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>#4</td>
+                <td>Pharrell Murray</td>
+                <td>pharrell.murray@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end">
+                    <a href="#" class="icon_visible material-icons table-icon me-4">
+                        visibility
+                    </a>
+                    <a href="#" class="icon_edit material-icons table-icon">
+                        edit
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>#5</td>
+                <td>Annika Mcbride</td>
+                <td>annika.mcbride@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end">
+                    <a href="#" class="icon_visible material-icons table-icon me-4">
+                        visibility
+                    </a>
+                    <a href="#" class="icon_edit material-icons table-icon">
+                        edit
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>#6</td>
+                <td>Fatimah Clark</td>
+                <td>fatimah.clark@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end">
+                    <a href="#" class="icon_visible material-icons table-icon me-4">
+                        visibility
+                    </a>
+                    <a href="#" class="icon_edit material-icons table-icon">
+                        edit
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>#7</td>
+                <td>Klaudia Rhodes</td>
+                <td>klaudia.rhodes@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end">
+                    <a href="#" class="icon_visible material-icons table-icon me-4">
+                        visibility
+                    </a>
+                    <a href="#" class="icon_edit material-icons table-icon">
+                        edit
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>#8</td>
+                <td>Tillie Lucero</td>
+                <td>tillie.lucero@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end">
+                    <a href="#" class="icon_visible material-icons table-icon me-4">
+                        visibility
+                    </a>
+                    <a href="#" class="icon_edit material-icons table-icon">
+                        edit
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>#9</td>
+                <td>Sabrina Stephenson</td>
+                <td>sabrina.stephenson@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end">
+                    <a href="#" class="icon_visible material-icons table-icon me-4">
+                        visibility
+                    </a>
+                    <a href="#" class="icon_edit material-icons table-icon">
+                        edit
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>#10</td>
+                <td>Annie Smith</td>
+                <td>annie.smith@mail.com</td>
+                <td>Yes</td>
+                <td class="text-end">
+                    <a href="#" class="icon_visible material-icons table-icon me-4">
+                        visibility
+                    </a>
+                    <a href="#" class="icon_edit material-icons table-icon">
+                        edit
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Pagination -->
+    <nav>
+        <ul class="pagination justify-content-end">
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <span class="page-icon material-icons">chevron_left</span>
+                </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item" aria-current="page">
+                <span class="page-link">2</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span class="page-icon material-icons">chevron_right</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
     </main>
   </div>
 

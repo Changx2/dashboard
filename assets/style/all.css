@@ -11620,10 +11620,6 @@ main {
   padding: 32px;
 }
 
-.sidebar-item-link {
-  color: #212529;
-}
-
 .sidebar-item-link:hover {
   color: #198754;
 }

@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="container d-flex">
+  <div class="d-flex">
     <nav class="sidebar bg-light d-flex flex-column justify-content-between">
       <div class="sidebar-main">
         <h1 class="logo">
@@ -63,7 +63,7 @@
       <div class="sidebar-user d-flex align-items-center">
         <img class="user-img rounded-circle me-3" src="./assets/images/andychen.jpeg" alt="photo">
         <div class="sidebar-user-info">
-          <p class="fw-bold">Andy Chen</p>
+          <h2 class="fw-bold h6 mb-1">Andy Chen</h2>
           <p class="sidebar-email text-black-50">andy0401@mail.com</p>
         </div>
       </div>
@@ -98,9 +98,9 @@
             <tr>
                 <th scope="col">
                     ID
-                    <span class="material-icons icon-down align-middle text-primary">
+                    <a href="#" class="material-icons icon-down align-middle text-primary">
                         arrow_downward
-                    </span>
+                    </a>
                 </th>
                 <th scope="col">Name</th>
                 <th scope="col">Email</th>
@@ -259,11 +259,15 @@
                     <span class="page-icon material-icons">chevron_left</span>
                 </a>
             </li>
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item" aria-current="page">
-                <span class="page-link">2</span>
+            <li class="page-item active">
+                <a class="page-link" href="#">1</a>
             </li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item" aria-current="page">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
             <li class="page-item">
                 <a class="page-link" href="#" aria-label="Next">
                     <span class="page-icon material-icons">chevron_right</span>
